@@ -50,13 +50,13 @@
 
             <!-- and phone # -->
             <label for = "telephone"> Phone Number (no special characters)*</label>
-            <input type = "tel" name = "telnum" value = "<?=$_POST['telnum']?>"/>>
+            <input type = "tel" name = "telnum" value = "<?=$_POST['telnum']?>"/>
 
             <br></br>
         
         <!-- getting departure date and city -->
             <label for = "date"> Date of Departure *</label>
-            <input type = date name = "leave" value = "<?=$_POST['leave']?>"/>>
+            <input type = date name = "leave" value = "<?=$_POST['leave']?>"/>
 
             <!-- city options-->
             <label for = "cities"> Choose a city *</label>
@@ -98,7 +98,7 @@
             $planeType = array ("Boeing 737-900", "Boeing 737-800", "Airbus 319 (319)", "Boeing 777-200 (777)");
             $groupNum = array ("1A", "1B", "1C", "2A", "2B", "2C", "3A", "3B", "3C");
 
-            echo "<div class = 'noutput'>";
+            echo "<div class = 'output'>";
             if(empty($firstname) || empty($lastname) || empty($dob) || empty($telnum) || empty($gender) || empty($leave) || empty($cities)) {
                echo "<br>Please fill out the required fields";
             }
