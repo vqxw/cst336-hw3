@@ -1,0 +1,59 @@
+body {
+    background-color: orange;
+}
+
+h1 {
+    line-height: 80px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.underH1 {
+    font-size: 25px;
+    text-align: center;
+    /* setting the text directly under the h1 tag vs having a big gap between the h1 tag and text */
+    position: absolute;
+    top: 65px;
+            /* making the text centered even though I already included text-align*/
+    width: 100%;
+}
+
+input {
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+#userInput {
+    vertical-align: central;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.sButton {
+    font-size: 30px;
+}
+#submit {
+    vertical-align: central;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.output {
+    text-align: center;
+    font-size: 25px;
+}
+
+.message {
+    font-weight: bold;
+}
+
+footer {
+    position: absolute;
+    bottom:0;
+    width:100%;
+    height:50px;
+    text-align: center;
+    font-size: 5px;
+}
